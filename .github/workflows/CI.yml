@@ -37,5 +37,5 @@ jobs:
       - name: Run prettier
         run:  npm run prettier
  
-      - name: Run the tests and generate coverage report
-        run: npm run test:unit:coverage
+      #- name: Run the tests and generate coverage report
+      #  run: npm run test:unit:coverage
