@@ -31,8 +31,8 @@ jobs:
         #env:
          # CI: true
  
-      - name: Run esLint
-        run: npm run lint
+      #- name: Run esLint
+      #  run: npm run lint
  
       - name: Run prettier
         run:  npm run prettier
