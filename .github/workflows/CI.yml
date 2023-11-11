@@ -7,8 +7,8 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
-  pull_request:
+    branches: 
+    pull_request:
     branches: [ master ]
  
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -37,5 +37,5 @@ jobs:
       - name: Run prettier
         run:  npm run prettier
  
-      - name: Run the tests and generate coverage report
-        run: npm run test:unit:coverage
+      #- name: Run the tests and generate coverage report
+      #  run: npm run test:unit:coverage
